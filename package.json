@@ -1,0 +1,16 @@
+{
+  "name": "spring6",
+  "version": "1.0.0",
+  "description": "Spring Edge Worker for Cloudflare Workers",
+  "main": "index.js",
+  "scripts": {
+    "dev": "wrangler dev index.js",
+    "deploy": "wrangler deploy",
+    "deploy:dry-run": "wrangler deploy --dry-run"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "wrangler": "^3.114.17"
+  }
+}
